@@ -8,3 +8,4 @@
 - vscode
 - Git and Github
 - https://chatgpt.com/
+- Python basics
