@@ -1,0 +1,7 @@
+Vscode:
+https://code.visualstudio.com/
+Python:
+https://www.python.org/
+Git:
+https://git-scm.com/
+
