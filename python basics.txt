@@ -1,0 +1,4 @@
+1. import basics
+2. functions basics and defining functions.
+3. function parameters and function returns.
+4. installing libraries

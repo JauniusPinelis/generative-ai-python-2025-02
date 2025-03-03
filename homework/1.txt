@@ -1,0 +1,2 @@
+Please write a python script which fetches the data from https://jsonplaceholder.typicode.com/todos
+and prints first 10 todo information to console.

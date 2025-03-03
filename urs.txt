@@ -4,4 +4,6 @@ Python:
 https://www.python.org/
 Git:
 https://git-scm.com/
+Chatgpt:
+https://chatgpt.com/
 

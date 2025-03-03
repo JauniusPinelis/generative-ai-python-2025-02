@@ -6,3 +6,5 @@
 - About me.
 - ai engineer
 - vscode
+- Git and Github
+- https://chatgpt.com/
