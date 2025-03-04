@@ -22,3 +22,6 @@
   - python-dotenv
   - openai
   - github models
+  
+  - poetry/ virtual environments
+  

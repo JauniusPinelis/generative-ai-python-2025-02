@@ -20,4 +20,4 @@ chat_completion = client.chat.completions.create(
     model="gpt-4o",
 )
 
-print(chat_completion)
+print(chat_completion.choices[0].message.content)

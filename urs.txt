@@ -6,4 +6,6 @@ Git:
 https://git-scm.com/
 Chatgpt:
 https://chatgpt.com/
+Poetry:
+https://python-poetry.org/docs/#installation
 
