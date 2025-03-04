@@ -1,0 +1,4 @@
+1. AI
+2. Generative AI
+3. Large language Model
+4. Open Source models.

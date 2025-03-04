@@ -9,3 +9,16 @@
 - Git and Github
 - https://chatgpt.com/
 - Python basics
+
+### Day 2.
+- Chatgpt limitations:
+  - hulucinations 
+  - Cutoff knowledge date.
+  - System integrations
+  - Openai Python Client
+
+  - .gitignore
+  - .env
+  - python-dotenv
+  - openai
+  - github models
