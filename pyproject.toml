@@ -1,14 +1,19 @@
-[tool.poetry]
+[project]
 name = "generative-ai-python-2025-02"
 version = "0.1.0"
-description = ""
-authors = ["JauniusPinelis <JauniusPinelis@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.13"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.20",
+    "langchain-community>=0.3.19",
+    "langchain-core>=0.3.43",
+    "langchain-text-splitters>=0.3.6",
+    "langgraph>=0.3.5",
+    "openai>=1.65.5",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+]

@@ -24,4 +24,12 @@
   - github models
   
   - poetry/ virtual environments
+
+## Week 1
+
+### Day 1
+  - Fine-tuning vs RAG
+  - Simplified RAG.
+  - uv, dependency management
+  - Python notebooks
   
