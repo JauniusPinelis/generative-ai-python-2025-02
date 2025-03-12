@@ -1,0 +1,6 @@
+You have two working examples of RAG implemented with langchain.
+
+Implement the same Jupyter notebooks as in the lesson with your own documents.
+You can try pdf, markdown, .txt
+
+Try creating your own RAG pipeline using the notebooks provided.
