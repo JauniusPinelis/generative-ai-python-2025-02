@@ -32,4 +32,13 @@
   - Simplified RAG.
   - uv, dependency management
   - Python notebooks
+
+### Day 2
+  - RAG
+
+
+### Day 3
+  - UV and Venv
+  - Starting new Python projects
+  - Streamlit
   
