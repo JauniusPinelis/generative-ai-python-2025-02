@@ -41,4 +41,13 @@
   - UV and Venv
   - Starting new Python projects
   - Streamlit
+
+## Week 3
+  
+### Day 1
+
+  - Open source models
+  - Ollama
+  - AI assisted programming.
+  - Deepen python knowledge/streamlit.
   

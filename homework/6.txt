@@ -1,0 +1,7 @@
+There is information about function calling/ tools.
+https://platform.openai.com/docs/guides/function-calling?api-mode=chat
+
+1. Implement a script, which does a function call with a openai-completion.
+2. Explain what the code does.
+(Analyse the code steps, be able to launch the code, be able to explain your code.)
+
