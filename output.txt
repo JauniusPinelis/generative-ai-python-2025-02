@@ -1,0 +1,3 @@
+User: What is the current temperature at coordinates 48.8566° N, 2.3522° E?
+Assistant: The current temperature at coordinates (48.8566° N, 2.3522° E) in Paris is 13.6°C.
+User: Please write this conversation to a file.

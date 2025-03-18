@@ -17,6 +17,10 @@ def get_weather(latitude: str, longitude: str):
     data = response.json()
     return data['current']['temperature_2m']
 
+def write_to_file(content: str, filename: str = "output.txt"):
+        with open(filename, 'w') as file:
+            file.write(content)
+        return os.path.abspath(filename)
 
 
 client = OpenAI(
@@ -38,6 +42,21 @@ tools = [{
                 "longitude": {"type": "number"}
             },
             "required": ["latitude", "longitude"],
+            "additionalProperties": False
+        },
+        "strict": True
+    }
+}, {
+    "type": "function",
+    "function": {
+        "name": "write_to_file",
+        "description": "Write content to a file and return the absolute path.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "content": {"type": "string"}
+            },
+            "required": ["content"],
             "additionalProperties": False
         },
         "strict": True
@@ -73,3 +92,32 @@ completion_2 = client.chat.completions.create(
 )
 
 print(completion_2.choices[0].message.content)
+
+# Add the model's response to the messages
+messages.append(completion_2.choices[0].message)
+
+# ------------------------------------------------------------
+
+# Ask to write the conversation to a file
+messages.append({
+    "role": "user",
+    "content": "Please write this conversation to a file."
+})
+
+completion_3 = client.chat.completions.create(
+    model="gpt-4o",
+    messages=messages,
+    tools=tools,
+)
+
+print(completion_3.choices[0].message)
+
+# Execute the tool call if it's requesting to write to a file
+if completion_3.choices[0].message.tool_calls:
+    tool_call = completion_3.choices[0].message.tool_calls[0]
+    args = json.loads(tool_call.function.arguments)
+    
+    if tool_call.function.name == "write_to_file":
+        file_path = write_to_file(args["content"])
+        print(f"Conversation written to: {file_path}")
+

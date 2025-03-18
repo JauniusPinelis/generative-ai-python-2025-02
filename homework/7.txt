@@ -1,0 +1,12 @@
+Please create a script in Python where AI has access to two tools:
+1. read_from_file -> the tool would allow to read from a local .txt file.
+2. write_to_file -> the tool which would allow writing to files.
+
+The task would be to have an AI agent which would be able to answer questions about your home city.
+For example, mine is Birzai.
+
+1. Go to english wikipedia of your home town. https://en.wikipedia.org/wiki/Bir%C5%BEai
+2. copy text from wiki page and paste it into your birzai.txt file.
+3. Write a workflow which would make 2 tool completions:
+    3.1. Read from file about my home city. 
+    3.2. Write a short summary of your home-town into a file.
