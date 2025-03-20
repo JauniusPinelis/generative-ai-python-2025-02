@@ -1,0 +1,12 @@
+Investigate a different LLM and GEN-ai technology provider -> Google/Gemini.
+
+1. Please register to Google AI studio and get api_key.
+https://aistudio.google.com/
+
+2. Play around with Google AI studio.
+
+3. Please write a script where 'gemini-2.0-flash' model describe your( upload your foto) 
+appearance in Lithuanian.
+
+4. Try creating a simple Streamlit chatbot (no additional functionality) which user Python Google 
+google.genai library.

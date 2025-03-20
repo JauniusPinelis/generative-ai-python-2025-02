@@ -1,0 +1,3 @@
+User: Check current weather at latitude 52.52 and longitude 13.405.
+Assistant: The current temperature in the location with latitude 52.52 and longitude 13.405 is 17.0°C.
+User: Please write this conversation to a file.

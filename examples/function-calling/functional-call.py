@@ -65,7 +65,7 @@ tools = [{
 
 completion = client.chat.completions.create(
     model="gpt-4o",
-    messages=[{"role": "user", "content": "What is the weather like in Paris today?"}],
+    messages=[{"role": "user", "content": "What is the weather like in Berlin today?"}],
     tools=tools
 )
 
