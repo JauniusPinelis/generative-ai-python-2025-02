@@ -1,0 +1,2 @@
+User: What is the weather like in Berlin today?
+Agent: The temperature in Berlin is 16.6 degrees Celsius.
