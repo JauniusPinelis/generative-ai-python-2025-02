@@ -89,4 +89,7 @@
  https://applied-llms.org/#prompting
  https://www.promptingguide.ai/techniques/fewshot
 
+ - Fine-tuning
+ https://docs.unsloth.ai/get-started/unsloth-notebooks
+
   
